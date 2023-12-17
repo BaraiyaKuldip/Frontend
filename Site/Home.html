@@ -4,51 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>
+        Taste Lab
+    </title>
     <style>
-*
-        {
+        * {
             margin: 0px;
             padding: 0px;
         }
-        .navbar
-        {
+
+        .navbar {
             position: fixed;
             /* border: 2px solid black; */
-            display: flex;  
-            background-color: #FFF600;
+            display: flex;
+            background-color: #2B2A4C;
             width: 100%;
         }
-        .logo-img
-        {
+
+        .logo-img {
             /* align-items: center;  */
             padding-top: 8px;
             padding-left: 15px;
         }
-        .navbar-items
-        {
+
+        .navbar-items {
             justify-content: space-between;
             /* border: 2px solid blue; */
             padding: 15px 10px 0px 10px;
         }
-        .navbar-items>h1
-        {
+
+        .navbar-items>h1 {
             /* color: #BF1B2C; */
             /* border: 2px solid violet; */
-            padding:1px 450px 0px 5px;
-            font-size: 21px;
-            color: #000000;
+            padding: 0px 450px 0px 5px;
+            font-size: 25px;
+            color: red;
             margin-bottom: 15px;
             text-transform: uppercase;
+            font-family: 'Lily Script One', sans-serif;
         }
-        .navbar-items>a
-        {
+
+        .navbar-items>a {
             text-decoration: none;
-            color: #000000;
+            color: red;
             font-size: 20px;
         }
-        .navbar-items>input
-        {
+
+        .navbar-items>input {
             width: 225px;
             margin-top: 0px;
             padding: 3px;
@@ -57,89 +59,127 @@
         .page-title {
             /* border: 1px solid black; */
             background: url(image/kitchen-utensils-heart-shapes-frame.jpg);
-            background-size: 1280px 300px;
+            background-size: 1280px 350px;
             background-repeat: no-repeat;
-            padding: 130px;
+            padding: 100px;
 
         }
-        .menuspace
-        {
-            width:100%;
-            height:56.8px;
+
+        .menuspace {
+            width: 100%;
+            height: 55.3px;
         }
 
-        .page-title>h1 {
-            color: #FFF600;
-            padding: 0px 10px 0px 420px;
-            font-family: monospace;
+        .page-title>img {
+            /* color: #BF1A2C; */
+            /* padding: 0px 10px 0px 420px; */
+            /* font-family: monospace; */
+            width: 250px;
+            margin: -50px 0px 0px 390px;
         }
-        .page-heading
-        {
+
+        .page-heading {
             padding: 20px;
             font-size: 30px;
             font-family: 'Lobster', sans-serif;
             padding-left: 575px;
+            color:red;
         }
-        .card-p
-        {
+
+        .card-p {
             padding: 0px 0px 0px 100px;
             display: flex;
             justify-content: space-evenly;
-            flex-wrap:wrap;
+            flex-wrap: wrap;
         }
-        .cards
-        {
+
+        .cards {
             padding-bottom: 20px;
             width: 33%;
         }
-        .cards>img
-        {
+
+        .cards>img {
             width: 300px;
             border-radius: 15px;
         }
-        .cards>img:hover
-        {
+
+        .cards>img:hover {
             border-radius: 15px;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-        } 
-        
-        
+        }
+
+
         /* CSS */
         .button-89 {
-            --b: 3px;   /* border thickness */
-  --s: .45em; /* size of the corner */
-  --color: #373B44;
-  margin-left: 80px;
-  
-  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
-  color: var(--color);
-  --_p: var(--s);
-  background:
-    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
-    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-  transition: .3s linear, color 0s, background-color 0s;
-  outline: var(--b) solid #0000;
-  outline-offset: .6em;
-  font-size: 16px;
+            --b: 3px;
+            /* border thickness */
+            --s: .45em;
+            /* size of the corner */
+            --color: red;
+            margin-left: 80px;
 
-  border: 0;
+            padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+            color: var(--color);
+            --_p: var(--s);
+            background:
+                conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+            transition: .3s linear, color 0s, background-color 0s;
+            outline: var(--b) solid #0000;
+            outline-offset: .6em;
+            font-size: 16px;
 
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
+            border: 0;
 
-.button-89:hover,
-.button-89:focus-visible{
-  --_p: 0px;
-  outline-color: var(--color);
-  outline-offset: .05em;
-}
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
 
-.button-89:active {
-  background: var(--color);
-  color: #fff;
-}
+        .button-89:hover,
+        .button-89:focus-visible {
+            --_p: 0px;
+            outline-color: var(--color);
+            outline-offset: .05em;
+        }
+
+        .button-89:active {
+            background: var(--color);
+            color: #fff;
+        } 
+
+
+        /* footer start */
+
+        .footer-logo>img{
+            width: 150px;
+            margin: 10px 10px 10px 550px;
+        }
+        .footer-p
+        {
+            background-color: #2B2A4C;
+            color: red;
+        }
+        .footer-items>a
+        {
+            
+            text-decoration: none;
+            color: red;
+            font-size: 20px;
+            margin: 100px 10px 100px 200px;
+            
+            justify-content: space-evenly;
+        }
+        .footer-items-p
+        {
+            display: flex;
+            padding-bottom: 100px;
+            padding-top: 10px;
+        }
+        .copyright
+        {
+            color: red;
+        margin: 0px 10px 10px 580px;
+        }
     </style>
 </head>
 
@@ -151,7 +191,7 @@
                     <img class="logo-img" src="./image/site_logo-removebg-preview.png" alt="Logo" width="50px">
                 </div>
                 <div class="navbar-items">
-                    <h1>Budget Bytes</h1>
+                    <h1>Taste Lab</h1>
                 </div>
                 <div class="navbar-items">
                     <a href="index.html">Home</a>
@@ -176,7 +216,8 @@
 
     <main>
         <div class="page-title">
-            <h1>Budget Bytes</h1>
+            <!-- <h1>Taste Lab</h1> -->
+            <img src="image/site_logo-removebg-preview.png" alt="">
         </div>
         <div class="page-heading">
             Recipes
@@ -197,7 +238,8 @@
             <div class="cards">
                 <img src="image/image(2).png" alt="">
                 <a href="#"><button class="button-89" role="button">Go To Blog</button></a>
-            </div><div class="cards">
+            </div>
+            <div class="cards">
                 <img src="image/image(1).png" alt="">
                 <a href="#"><button class="button-89" role="button">Go To Blog</button></a>
             </div>
@@ -218,14 +260,33 @@
                 <a href="#"><button class="button-89" role="button">Go To Blog</button></a>
             </div>
         </div>
-        
-        
+
+
     </main>
 
     <footer>
         <div class="footer-p">
-            <div>
-                
+            <div class="footer-logo">
+                <img src="image/site footer logo.png" alt="">
+            </div>
+            <div class="footer-items-p">
+                <div class="footer-items">
+                    <a href="#">Recipes</a>
+                    
+                </div>
+                <div class="footer-items">
+                    <a href="#">About</a>
+                </div>
+                <div class="footer-items">
+                    <a href="#">Contact</a>
+                </div>
+                <div class="footer-items">
+                    <a href="#">Support</a>
+                </div>
+            </div>
+            <!-- <hr color="red"> -->
+            <div class="copyright">
+                &#169; Taste Lab 2023.
             </div>
         </div>
     </footer>

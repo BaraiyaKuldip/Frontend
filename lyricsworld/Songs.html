@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>
+        Lyrics World
+    </title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .page-heading {
+            padding: 20px;
+            font-size: 30px;
+            font-family: 'Lobster', sans-serif;
+            padding-left: 600px;
+            color:black;
+        }
+
+        .card-p {
+            padding: 0px 0px 0px 40px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .cards {
+            padding-bottom: 20px;
+            width: 33%;   
+        }
+
+        .cards>img {
+            width: 300px;
+            border-radius: 15px;
+            margin-left: 50px;
+        }
+
+        .cards>img:hover {
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .cards>h2
+        {
+            margin-bottom: 2px;
+            font-size: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            /* font-family: 'Lobster', sans-serif; */
+            font-weight: 600;
+        }
+
+
+        /* CSS */
+        .button-89 {
+            --b: 3px;
+            /* border thickness */
+            --s: .45em;
+            /* size of the corner */
+            --color: black;
+            margin-left: 140px;
+
+            padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+            color: var(--color);
+            --_p: var(--s);
+            background:
+                conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+            transition: .3s linear, color 0s, background-color 0s;
+            outline: var(--b) solid #0000;
+            outline-offset: .6em;
+            font-size: 16px;
+
+            border: 0;
+
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button-89:hover,
+        .button-89:focus-visible {
+            --_p: 0px;
+            outline-color: var(--color);
+            outline-offset: .05em;
+        }
+
+        .button-89:active {
+            background: var(--color);
+            color: #fff;
+        } 
+
+
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div>
+                    <img class="logo-img" src="./img/Lyrics_World_Logo-removebg-preview.png" alt="Logo" width="50px">
+                </div>
+                <div class="navbar-items">
+                    <h1>Lyrics World</h1>
+                </div>
+                <div class="navbar-items">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="navbar-items">
+                    <a href="Songs.html">Songs</a>
+                </div>
+                <div class="navbar-items">
+                    <a href="Audio.html">Audio</a>
+                </div>
+                <div class="navbar-items">
+                    <a href="Video.html">Video</a>
+                </div>
+                <div class="navbar-items">
+                    <input name="search" id="search" placeholder="Search">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="menuspace"></div>   
+
+    <main>
+        <div class="page-title">
+            <!-- <h1>Taste Lab</h1> -->
+            <!-- <img src="img/Lyrics_World_Logo-removebg-preview.png" alt=""> -->
+        </div>
+        <div class="page-heading">
+            SONGS
+        </div>
+        <div class="card-p">
+            <div class="cards">
+                <h2>Apna Bana Le Piya - Bhediya</h2>
+                <img src="img/Apna Bana Le Piya Song.jpg" alt="">
+                <a href="Apna_Bana_Le_Piya_Bhediya.html"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Bekhayali - Kabir Singh</h2>
+                <img src="img/Bekhayali-Song.jpg" alt="">
+                <a href="Bekhayali_Kabir_Singh.html"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Channa ve - Bhoot</h2>
+                <img src="img/Channa ve-Song.jpg" alt="">
+                <a href="channa_ve_Bhoot.html"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Dil diyan gallan - Tiger Zinda Hai</h2>
+                <img src="img/Dil diyan gallan-Song.jpg" alt="">
+                <a href="Dil_Diya_Gallan_Tiger_Zinda_Hai.html"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Excuses - AP Dhillon</h2>
+                <img src="img/Excuses-Song.jpg" alt="">
+                <a href="Excuses_AP_Dhillon.html"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Filhaal2 Mohabbat - B Praak</h2>
+                <img src="img/Filhall2-Song.jpg" alt="">
+                <a href="Filhaal2_B_Praak.html"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Genda Phool - Badshah</h2>
+                <img src="img/Genda fool-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Heeriye - Arijit Singh</h2>
+                <img src="img/heeriye song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Ishq Tera - GURU Randhawa</h2>
+                <img src="img/Ishq tera-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Jaan ban gaye - khuda hafiz</h2>
+                <img src="img/Jann ban gaye-SOng.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>kya loge tum - B Praak</h2>
+                <img src="img/Kya loge tum-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Lambiyan si judaiyaan - Raabta</h2>
+                <img src="img/Lambiyaan si judaiyaan-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Maiyya MAinu - jersey</h2>
+                <img src="img/Maiyya mainu-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>namo namo - kedarnath</h2>
+                <img src="img/Namo namo-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>O khuda - Hero</h2>
+                <img src="img/O khuda-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>pal pal dil ke paas - title song</h2>
+                <img src="img/Pal pal dil ke paas-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Qaafirana - kedarnath</h2>
+                <img src="img/Qaafirana-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Raataan lambiyan - Shershah</h2>
+                <img src="img/Raataan lambiyan-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>duniya jala denge - Animal</h2>
+                <img src="img/Saari duniya jala denge-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>tum hi ho - Aashiqui 2</h2>
+                <img src="img/Tum hi ho-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>udd jaa kaale kawa - Gadar 2</h2>
+                <img src="img/Udd jaa kaale kaava-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>ve maahi - kesari</h2>
+                <img src="img/Ve maahi-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Wafa ne bewafai-teraa surroor</h2>
+                <img src="img/Wafa ne bewafai-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>bella ciao - money hiest</h2>
+                <img src="img/Bella ciao-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>yeh tune kya kiya - Once Upon</h2>
+                <img src="img/Yeh tune kya kiya-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Zara Sa - Jannat</h2>
+                <img src="img/Zara sa-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+            <div class="cards">
+                <h2>Khalasi - Aditya Ghadhvi</h2>
+                <img src="img/Khalasi-Song.jpg" alt="">
+                <a href="#"><button class="button-89" role="button">Song Lyrics</button></a>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="footer-p">
+            <!-- <div class="footer-logo">
+                <img src="img/Footer_Lyrics_World_Logo-removebg-preview.png" alt="">
+            </div> -->
+            <div class="footer-items-p">
+                <img src="img/Footer_Lyrics_World_Logo-removebg-preview.png" alt="">
+                <div class="footer-items">
+                    <a href="Songs.html">Songs</a>
+                </div>
+                <div class="footer-items">
+                    <a href="#">About</a>
+                </div>
+                <div class="footer-items">
+                    <a href="#">Contact</a>
+                </div>
+                <div class="footer-items">
+                    <a href="#">Support</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
