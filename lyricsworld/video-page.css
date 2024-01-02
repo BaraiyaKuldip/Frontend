@@ -82,3 +82,226 @@
             background: var(--color);
             color: #fff;
         } 
+
+
+
+
+        @media (min-width: 320px) and (max-width: 480px) {
+
+
+            /* navbar css start */
+        
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            .navbar {
+                position: fixed;
+                /* border: 2px solid black; */
+                display: flex;
+                background-color: #000000;
+                width: 100%;
+            }
+            
+            .logo-img {
+                /* align-items: center;  */
+                padding-top: 8px;
+                padding-left: 5px;
+            }
+            
+            .navbar-items {
+                justify-content: space-between;
+                /* border: 2px solid blue; */
+                padding: 15px 10px 0px 10px;
+            }
+            
+            .navbar-items>h1 {
+                /* color: #BF1B2C; */
+                /* border: 2px solid violet; */
+                padding: 0px 0px 0px 0px;
+                font-size: 15px;
+                color: #414141;
+                text-transform: uppercase;
+                font-family: 'Lily Script One', sans-serif;
+        
+            }
+        
+            .h1
+            {
+                font-size: 5px;
+                font-weight: 500;
+                color: #222;
+                letter-spacing: 5px;
+                cursor: pointer;
+                text-transform: uppercase;
+                transition: 0.5s;
+            }
+        
+        
+            .h1:hover
+            {
+                
+                color: #fff;
+          text-shadow: 0 0 5px #03e9f4,
+                      0 0 25px #03e9f4,
+                      0 0 50px #03e9f4,
+                      0 0 100px #03e9f4;
+                
+            }
+            
+            .navbar-items>a {
+                text-decoration: none;
+                color: white;
+                font-size: 15px;
+            }
+            
+            /* .navbar-items>input {
+                width: 225px;
+                margin-top: 0px;
+                padding: 3px;
+            } */
+            
+            .menuspace {
+                width: 100%;
+                height: 55.3px;
+            }
+        
+             /* navbar css end */
+             
+        
+        
+             /* page css start */
+        
+
+             *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .page-heading {
+            padding: 20px;
+            font-size: 30px;
+            font-family: 'Lobster', sans-serif;
+            padding-left: 145px;
+            color:black;
+        }
+
+        .card-p {
+            padding: 0px 0px 0px 00px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .cards {
+            padding-bottom: 20px;
+            width: 90%;   
+        }
+
+        .cards>a>img {
+            width: 300px;
+            border-radius: 15px;
+            margin-left: 15px;
+        }
+
+        .cards>img:hover {
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .cards>h2
+        {
+            margin-bottom: 2px;
+            font-size: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            /* font-family: 'Lobster', sans-serif; */
+            font-weight: 600;
+        }
+
+
+        /* CSS */
+        .button-89 {
+            --b: 3px;
+            /* border thickness */
+            --s: .45em;
+            /* size of the corner */
+            --color: black;
+            margin-left: 140px;
+
+            padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+            color: var(--color);
+            --_p: var(--s);
+            background:
+                conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+            transition: .3s linear, color 0s, background-color 0s;
+            outline: var(--b) solid #0000;
+            outline-offset: .6em;
+            font-size: 16px;
+
+            border: 0;
+
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button-89:hover,
+        .button-89:focus-visible {
+            --_p: 0px;
+            outline-color: var(--color);
+            outline-offset: .05em;
+        }
+
+        .button-89:active {
+            background: var(--color);
+            color: #fff;
+        } 
+
+
+             
+             
+            
+                /* page css end */
+        
+        
+                    /* footer page start  */
+        
+                    
+        .footer-logo>img{
+            width: 50px;
+            margin: 0px 10px 0px 10px;
+        }
+        .footer-p
+        {
+            width: 100%;
+            height: 128px;
+            background-color: #000000;
+            color: rgb(0, 0, 0);
+        }
+        .footer-items>a
+        {
+            /* width: 150px; */
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        .footer-items-p
+        {
+            display: flex;
+            /* padding-bottom: 100px; */
+            padding-top:3px;
+            /* justify-content: center; */
+            align-items: center;
+        }
+        .footer-items-p>img
+        {
+            width: 140px;
+        }
+        
+        
+        /* footer end  */
+        }
