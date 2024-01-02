@@ -38,12 +38,14 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
+    margin-left: 10px;
 }
 
 .navbar-items>input {
     width: 225px;
     margin-top: 0px;
-    padding: 3px;
+    margin-left: 80px;
+    padding: 3px 0px 0px 0px;
 }
 
 .menuspace {
